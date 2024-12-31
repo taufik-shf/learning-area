@@ -7,3 +7,9 @@ The one exception is the [Server-side website programming](https://developer.moz
 
 * https://github.com/mdn/express-locallibrary-tutorial
 * https://github.com/mdn/django-locallibrary-tutorial
+
+--- 
+**Note**: I’ve forked this repository to work on some challenges provided in the MDN Learning Area. 
+
+Some challenges I’ve completed are: 
+- Challenge 1: [Marking up a letter](html/introduction-to-html/marking-up-a-letter-start/index.html)
