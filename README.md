@@ -15,3 +15,4 @@ Some challenges I’ve completed are:
 - Challenge 1: [Marking up a letter](html/introduction-to-html/marking-up-a-letter-start/index.html)
 - Challenge 2: [Structuring a page of content-HTML5 Semantics](\html\introduction-to-html\structuring-a-page-of-content-start\index.html)
 - Challenge 3: [mdn splash page - embedding multimedia files](html\multimedia-and-embedding\mdn-splash-page-start\index.html)
+- Challenge 4: [HTML Table challenge - planets-data](html\tables\assessment-start\index.html)
