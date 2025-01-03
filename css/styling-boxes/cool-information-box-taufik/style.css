@@ -3,3 +3,28 @@ html {
 }
 
 /* Your CSS below here */
+/* Styling the large box */
+div {
+  width: 200px; /* Reasonable width for a large box */
+  height: 150px; /* Reasonable height for a large box */
+  margin: auto;
+  line-height: 9;
+  text-align: center; /* Center the text horizontally */
+  margin: 0 auto; /* Center the box horizontally */
+  font-size: 1.125rem; /* 1rem is typically 16px. 17-18px / 16px = 1.0625rem to 1.125rem */
+  background-color: #3498db; /* Base color for the design */
+  color: #fff; /* Contrasting color for the text */
+  text-shadow: 1px 1px 2px black; /* Black text shadow */
+  border-radius: 10px; /* Subtle border radius */
+  border: 1px solid #2980b9; /* 1px solid border with a slightly darker shade of the base color */
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  background-color: #3498db; /* Fallback background color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+    inset 1px 1px 5px rgba(255, 255, 255, 0.3),
+    inset -1px -1px 5px rgba(0, 0, 0, 0.3);
+}
