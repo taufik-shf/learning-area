@@ -19,3 +19,4 @@ Some challenges I’ve completed are:
 - CSS - Challenge 1: [Fundamental CSS Comprehension](css\introduction-to-css\fundamental-css-comprehension\style.css)
 - CSS - Challenge 2: [Styling Boxes Challenge - letterhead-paper](css/styling-boxes/letterheader-paper-taufik/)
 - CSS - Challenge 3: [Styling Boxes Challenge - Cool Information Box](css/styling-boxes/cool-information-box-taufik/)
+- CSS - Challenge 4: [Styling Text Challenge - School Community Page](css/styling-text/typesetting-a-homepage-taufik/)
