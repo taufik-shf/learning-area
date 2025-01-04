@@ -31,15 +31,157 @@ footer {
   clear: both;
 }
 
-header, section, aside, nav, footer {
+header,
+section,
+aside,
+nav,
+footer {
   padding: 20px;
 }
 
 /* header and footer */
 
-header, footer {
+header,
+footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+/* FONT AND GENERAL STYLING */
+
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/opensans_regular/OpenSans-Regular-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "droidserif";
+  src: url("fonts/droidserif_regular/DroidSerif-Regular-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: "droidserif", serif;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "opensans", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h2 + p {
+  text-indent: 1.5em;
+}
+
+/* Basic link styling in the proper order */
+a {
+  text-decoration: underline;
+  outline: none;
+}
+
+a:link,
+a:visited {
+  color: #a66;
+}
+
+a:focus,
+a:hover {
+  color: #fbbc05;
+  text-decoration: none;
+}
+
+a:active {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-left: 0.15em;
+  padding-bottom: 0.5em;
+  background-size: 100%;
+  background-image: url("external-link-52.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Ensure proper spacing for lists and list items */
+ul,
+ol {
+  /* margin-top: 1.6rem; */
+  margin-bottom: 1.6rem;
+  padding-left: 1.8rem;
+}
+
+/* Custom bullet for list items */
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-latin;
+}
+
+/* Style the navigation menu */
+nav ul {
+  padding-left: 0;
+  margin-top: 20px;
+  list-style-type: none;
+  font-size: 1.2em;
+  margin-left: -5em;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "opensasn", sans-serif;
+}
+
+nav a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 3;
+  padding: 10px;
+  width: 15em;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus {
+  background-color: none;
+  color: black;
+  border: 1.5px solid #a66;
+}
+
+nav a:hover {
+  background-color: #a66;
+}
+
+nav a:active {
+  background-color: rgb(144, 3, 3);
+  color: white;
+  font-size: 1em;
+}
